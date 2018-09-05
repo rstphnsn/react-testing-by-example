@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import settings from '../../settings';
 
-import logo from '../logo.svg';
+import logo from '../../logo.svg';
 
 class Header extends Component {
   renderLogo(showLogo = false) {

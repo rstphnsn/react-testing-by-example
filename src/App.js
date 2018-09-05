@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header showLogo />
         <p className="App-intro">
           This is a test app
         </p>
