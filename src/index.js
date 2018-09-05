@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
 
 import { Provider } from 'react-redux'
 
-import configureStore from './store';
+import configureStore from './store'
 
-const initialState = {};
+const initialState = {}
 const store = configureStore(initialState)
 
 ReactDOM.render(
@@ -15,4 +15,4 @@ ReactDOM.render(
     <App />
   </Provider>,
   document.getElementById('root')
-);
+)

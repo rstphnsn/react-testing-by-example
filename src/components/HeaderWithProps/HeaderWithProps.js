@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import logo from '../../logo.svg';
+import React, { Component } from 'react'
+import logo from '../../logo.svg'
 
 class Header extends Component {
   renderLogo(showLogo =  false) {
@@ -8,7 +8,7 @@ class Header extends Component {
         <img src={logo} className="App-logo" alt="logo" />
       )
     }
-    return null;
+    return null
   }
 
   render() {
@@ -17,7 +17,7 @@ class Header extends Component {
           {this.renderLogo(this.props.showLogo)}
           <h1 className="App-title">Welcome to React</h1>
       </header>
-    );
+    )
   }
 }
 

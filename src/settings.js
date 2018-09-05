@@ -2,4 +2,4 @@ const settings = {
   showLogo: true,
 }
 
-export default settings;
+export default settings

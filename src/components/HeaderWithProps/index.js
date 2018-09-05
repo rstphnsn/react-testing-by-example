@@ -1,3 +1,3 @@
-import HeaderWithProps from './HeaderWithProps';
+import HeaderWithProps from './HeaderWithProps'
 
-export default HeaderWithProps;
+export default HeaderWithProps

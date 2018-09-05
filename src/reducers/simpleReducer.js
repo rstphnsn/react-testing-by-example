@@ -1,6 +1,10 @@
-export default (state = {}, action) => {
+const initialState = {
+  showLogo: false,
+}
+
+export default (state = initialState, action) => {
   switch (action.type) {
-    case 'SIMPLE_ACTION':
+    case 'SHOW_LOGO':
       return {
         result: action.payload
       }

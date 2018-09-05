@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 import { shallow } from 'enzyme'
 
 // Thing we want to test
-import Header from './Header';
+import Header from './Header'
 
 // this we need to mock
-jest.mock('../settings', () => ({
+jest.mock('../../settings', () => ({
   showLogo: false
 }))
 
@@ -23,7 +23,7 @@ describe('Header component: ', () => {
   describe('rendering the logo', () => {
     describe('when show logo settings is true', () => {
       it('renders the logo', () => {
-        jest.doMock('../settings', () => ({
+        jest.doMock('../../settings', () => ({
           showLogo: true
         }))
         const Header = require('./Header').default
@@ -35,7 +35,7 @@ describe('Header component: ', () => {
 
     describe('when show logo settings is false', () => {
       it('does not render the logo', () => {
-        jest.doMock('../settings', () => ({
+        jest.doMock('../../settings', () => ({
           showLogo: false
         }))
         const Header = require('./Header').default
